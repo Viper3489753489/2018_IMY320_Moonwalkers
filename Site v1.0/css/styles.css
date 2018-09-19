@@ -33,3 +33,23 @@ span.nav-text{
 	font-weight: bold;
 	text-decoration: underline;
 }
+div{
+	height: 400px;
+
+}
+
+#one{
+	background-color:red; 
+}
+
+#two{
+	background-color:blue; 
+}
+
+#three{
+	background-color:green; 
+}
+
+#four{
+	background-color:orange; 
+}
