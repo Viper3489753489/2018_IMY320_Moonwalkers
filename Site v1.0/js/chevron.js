@@ -3,40 +3,44 @@ $(document).ready(function(){
 	var chevron2 = 0;
 	var chevron3 = 0;
 	var chevron4 = 0; 	
-	$("#one").hide(); 	
-	$("#two").hide(); 	
-	$("#three").hide(); 	
-	$("#four").hide();
+	$("#one").slideUp(); 	
+	$("#two").slideUp(); 	
+	$("#three").slideUp(); 	
+	$("#four").slideUp();
 
 	$(".chevronLink").click(function(){
-		var showID = $(this).data("item")
+		var slideDownID = $(this).data("item")
 
 		console.log($(this).data("item"));	
-		switch(showID){
+		switch(slideDownID){
 			case 1:
-				$("#one").show(); 	
-				$("#two").hide(); 	
-				$("#three").hide(); 	
-				$("#four").hide();
+				$("#Landing-page").slideUp();
+				$("#one").slideDown(); 	
+				$("#two").slideUp(); 	
+				$("#three").slideUp(); 	
+				$("#four").slideUp();
 				break;
 
 			case 2:
-				$("#one").hide(); 	
-				$("#two").show(); 	
-				$("#three").hide(); 	
-				$("#four").hide();
+				$("#Landing-page").slideUp();
+				$("#two").slideDown(); 	
+				$("#one").slideUp(); 
+				$("#three").slideUp(); 	
+				$("#four").slideUp();
 				break;
 			case 3:
-				$("#one").hide(); 	
-				$("#two").hide(); 	
-				$("#three").show(); 	
-				$("#four").hide();
+				$("#Landing-page").slideUp();	
+				$("#three").slideDown();
+				$("#one").slideUp(); 	
+				$("#two").slideUp(); 	
+				$("#four").slideUp();
 				break;
 			case 4:
-				$("#one").hide(); 	
-				$("#two").hide(); 	
-				$("#three").hide(); 	
-				$("#four").show();
+				$("#Landing-page").slideUp();
+				$("#four").slideDown();
+				$("#one").slideUp(); 	
+				$("#two").slideUp(); 	
+				$("#three").slideUp(); 	
 				break;
 		}
 
