@@ -67,7 +67,7 @@ span.nav-text{
 #one{
 	background-color: black;
 	/*padding: 40px;*/
-	background-image: url("../images/IMY320_2.png");
+	background-image: url("../images/IMY320_2.PNG");
 	height: 100%;
 	width: 100%;
 	background-repeat: no-repeat;
@@ -96,7 +96,7 @@ span.nav-text{
 
 #img2{
 	margin-top: 40px;
-	background-image: url("../images/IMY320_1.png"); /*Should change to a gif with the*/
+	background-image: url("../images/IMY320_1.PNG"); /*Should change to a gif with the*/
 	background-position: center center;
 	height: 500px;
 	/*width: 100%;*/
@@ -107,7 +107,7 @@ span.nav-text{
 #three{
 	background-color:black; 
 	/*display: none;*/
-	background-image: url("../images/IMY320_2.png");
+	background-image: url("../images/IMY320_2.PNG");
 	height: 100%;
 	width: 100%;
 	background-repeat: no-repeat;
