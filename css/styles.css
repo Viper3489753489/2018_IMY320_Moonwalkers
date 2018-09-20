@@ -2,6 +2,16 @@
 	font-family: 'Titillium Web', sans-serif;
 }
 
+@font-face{
+    font-family: 'Digital';
+    src: url('../fonts/digital.ttf');
+}
+
+@font-face{
+    font-family: 'moonwalkerTitle';
+    src: url('../fonts/Potra.ttf');
+}
+
 div#Landing-page{
 	width: 100%;
 	height:  100%;
@@ -18,6 +28,8 @@ img#banner{
 	margin: 0, auto;
 }
 h1{
+    font-family: 'Digital';
+    text-shadow: 2px 2px #006600;
 	text-align: center;
 	color: white;
 	font-size: 42px;
@@ -58,12 +70,23 @@ div{
 }
 .nav-item:hover{
 	cursor: pointer;
-	color: #880000;
+	color: #006600;
+}
+
+#moonwalker{
+    font-family: 'moonwalkerTitle';
+    text-shadow: none;
 }
 span.nav-text{
+    font-family: 'Digital';
+    text-shadow: 2px 2px #006600;
 	font-weight: bold;
-	text-decoration: underline;
+	/*text-decoration: underline;*/
 }
+
+
+
+/*--------------------------Story----------------------------------*/
 #one{
 	background-color: black;
 	/*padding: 40px;*/
@@ -85,6 +108,8 @@ span.nav-text{
 	margin:17% 13%;
 	/*margin:0 13%;*/
 }
+
+/*--------------------------Info----------------------------------*/
 #two{
 	background-color: black;
 	display: none;
@@ -104,6 +129,8 @@ span.nav-text{
 	background-size: contain;
 }
 
+
+/*--------------------------Trailer----------------------------------*/
 #three{
 	background-color:black; 
 	/*display: none;*/
@@ -117,11 +144,8 @@ span.nav-text{
 #three>iframe{
     margin: 5% 19%;
     width: 62%;
-    height: 651px;
-}
-#four{
-	background-color:rgba(34,34,34,1); 
-	display: none;
+    height: 450px;
+	
 }
 
 ul{
@@ -132,4 +156,66 @@ p{
 	padding: 80px 20px;
 	text-align: justify;
 	color: white;
+}
+
+
+/*----------------------------Contact Stuff---------------------------------*/
+.contRow{
+    height: 300px;
+    margin-bottom: 2px;
+    border: solid 1px RGBA(0,0,0,50%);
+}
+
+.contactImage{
+    height: 200px;
+    
+}
+
+.contacts{
+    /*padding-left: 25%*/
+    padding: 15% 10%
+}
+.contactsReduceSize{
+    height: 300px;
+}
+
+#four{
+	background-color:rgba(34,34,34,1); 
+	display: none;
+	
+	background-image: url("../images/IMY320_2.PNG");
+	height: 100%;
+	width: 100%;
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center
+}
+
+ul.contactDetails{
+    list-style: none;
+}
+
+/*--------------------------footer----------------------------------*/
+#footer{
+    background-image: url("../images/footer/footer.png");
+	height: 100%;
+	width: 100%;
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center
+}
+
+.footerContainer{
+    height: 500px;
+    color: white
+}
+
+.footerLists{
+    list-style: none;
+}
+
+.footRow{
+    height: 100%
 }

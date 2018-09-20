@@ -13,7 +13,14 @@ $(document).ready(function(){
 
 		console.log($(this).data("item"));	
 		switch(slideDownID){
-			case 1:
+			case 0:
+				$("#Landing-page").slideDown();
+				$("#one").slideUp(); 	
+				$("#two").slideUp(); 	
+				$("#three").slideUp(); 	
+				$("#four").slideUp();
+				break;
+            case 1:
 				$("#Landing-page").slideUp();
 				$("#one").slideDown(); 	
 				$("#two").slideUp(); 	
