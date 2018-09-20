@@ -3,10 +3,10 @@ $(document).ready(function(){
 	var chevron2 = 0;
 	var chevron3 = 0;
 	var chevron4 = 0; 	
-	$("#one").slideUp(); 	
-	$("#two").slideUp(); 	
-	$("#three").slideUp(); 	
-	$("#four").slideUp();
+	$("#one").hide(); 	
+	$("#two").hide(); 	
+	$("#three").hide(); 	
+	$("#four").hide();
 
 	$(".chevronLink").click(function(){
 		var slideDownID = $(this).data("item")
@@ -20,7 +20,6 @@ $(document).ready(function(){
 				$("#three").slideUp(); 	
 				$("#four").slideUp();
 				break;
-
 			case 2:
 				$("#Landing-page").slideUp();
 				$("#two").slideDown(); 	
@@ -43,12 +42,5 @@ $(document).ready(function(){
 				$("#three").slideUp(); 	
 				break;
 		}
-
-
-
-
-	})
-
-
-
+	});
 });
