@@ -1,0 +1,233 @@
+* {
+	font-family: 'Titillium Web', sans-serif;
+}
+
+@font-face{
+    font-family: 'Digital';
+    src: url('../fonts/digital.ttf');
+}
+
+@font-face{
+    font-family: 'moonwalkerTitle';
+    src: url('../fonts/Potra.ttf');
+}
+
+body{
+	background-color: white;
+}
+
+div#Landing-page{
+	width: 100%;
+	height:  100%;
+	background-color: white;
+	text-align: center;
+}
+div#Landing-page>img{
+	/*width: 100%;*/
+	height:700px;
+	/*background-color: white;*/
+	/*text-align: center;*/
+}
+img#banner{
+	margin: 0, auto;
+}
+h1{
+    font-family: 'Digital';
+    text-shadow: 2px 2px #006600;
+	text-align: center;
+	color: white;
+	font-size: 42px;
+
+}
+div{
+	/*position: fixed;*/
+	/*top: -47px;*/
+	height:728px;
+	padding-top: 30px;
+}
+
+
+/*------Nav Bar CSS------------------------*/
+#nav-bar-div{
+	width: 100%;
+	height: 47px;
+	text-align: center;
+	z-index: 1;
+	box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+	margin-bottom: 0px;
+	padding-top: 0;
+	top:0px;
+	position: fixed;
+	background-color: white;
+}
+#nav-bar{
+	padding: 5px;
+	box-shadow:0px 4px 4px 0px rgba(0,0,0,0.25);
+}
+.nav-item{
+	display: inline;
+	font: arial;
+	font-size: 1.5em;
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+.nav-item:hover{
+	cursor: pointer;
+	color: #006600;
+}
+
+#moonwalker{
+    font-family: 'moonwalkerTitle';
+    text-shadow: none;
+}
+span.nav-text{
+    font-family: 'Digital';
+    text-shadow: 2px 2px #006600;
+	font-weight: bold;
+	/*text-decoration: underline;*/
+}
+
+/*--------------------------Cards div----------------------------------*/
+body{
+	background-image: url("../images/IMY320_2crop.png");
+	background-repeat: no-repeat;
+	background-size: 120%;
+	background-position: top center;
+	/*padding-top: 100px;*/
+}
+
+
+
+/*--------------------------Story----------------------------------*/
+#one{
+	display: none;
+	background-image: url("../images/bg-red.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom left;
+	padding-top: 70px;
+}
+#one>p{
+	 text-align: right;
+	 position: absolute;
+	 bottom: 50px;
+	 right: 20px;
+	 margin-right: 0px;
+}
+#one>h1{
+	text-align: left;
+}
+
+/*--------------------------Info----------------------------------*/
+#two{
+	display: none;
+	background-image: url("../images/bg-blue.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:bottom left;
+	padding-top: 70px;
+
+	/*padding: 120px;*/
+}
+#two>h1{
+	text-align: left;
+}
+#two>p{
+	 text-align: right;
+	 position: absolute;
+	 bottom: 50px;
+	 right: 20px;
+	 margin-right: 0px;
+}
+
+#img2{
+	margin-top: 40px;
+	background-image: url("../images/IMY320_1.PNG"); /*Should change to a gif with the*/
+	background-position: center center;
+	background-color: white;
+	height: 500px;
+	/*width: 100%;*/
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+
+/*--------------------------Trailer----------------------------------*/
+#three{
+	display: none;
+	padding-top: 70px;
+}
+#three>iframe{
+    margin: 5% 19%;
+    width: 62%;
+    height: 450px;
+	
+}
+
+ul{
+	margin-bottom: 0;
+}
+
+p{
+	padding: 5px 5px;
+	text-align: justify;
+	color: white;
+}
+
+
+/*----------------------------Contact Stuff---------------------------------*/
+.contRow{
+    height: 300px;
+    margin-bottom: 2px;
+    border: solid 1px RGBA(0,0,0,50%);
+}
+
+.contactImage{
+    height: 200px;
+    
+}
+
+.contacts{
+    /*padding-left: 25%*/
+    padding: 15% 10%
+}
+.contactsReduceSize{
+    height: 300px;
+}
+
+#four{display: none;
+	background-image: url("../images/bg-yellow.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:bottom left;
+	padding-top: 70px;
+}
+
+ul.contactDetails{
+    list-style: none;
+}
+
+/*--------------------------footer----------------------------------*/
+#footer{
+    background-image: url("../images/footer/footer.png");
+	height: 100%;
+	width: 100%;
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center
+}
+
+.footerContainer{
+    height: 500px;
+    color: white
+}
+
+.footerLists{
+    list-style: none;
+}
+
+.footRow{
+    height: 100%
+}
