@@ -49,16 +49,15 @@ div{
 	height: 47px;
 	text-align: center;
 	z-index: 1;
-	box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+	/*box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);*/
 	margin-bottom: 0px;
 	padding-top: 0;
-	top:0px;
+	top:7px;
 	position: fixed;
-	background-color: white;
+	/*background-color: white;*/
 }
 #nav-bar{
 	padding: 5px;
-	box-shadow:0px 4px 4px 0px rgba(0,0,0,0.25);
 }
 .nav-item{
 	display: inline;
@@ -66,22 +65,38 @@ div{
 	font-size: 1.5em;
 	padding-left: 10px;
 	padding-right: 10px;
-
+	color: white;
 }
 .nav-item:hover{
 	cursor: pointer;
-	color: #006600;
+	/*color: #006600;*/
 }
 
 #moonwalker{
     font-family: 'moonwalkerTitle';
     text-shadow: none;
-}
-span.nav-text{
-    font-family: 'Digital';
-    text-shadow: 2px 2px #006600;
 	font-weight: bold;
-	/*text-decoration: underline;*/
+}
+.nav-text{
+	user-select: none;
+	border: 15px solid transparent;
+	border-image: url("../images/border.png") 30 round;
+	background-color: #212121;
+    font-family: 'Digital';
+	color: white;
+	font-weight: bold;
+	transition: all 0.1s linear;
+	box-shadow:0px 4px 4px 0px rgba(0,0,0,0.25);
+}
+
+.nav-text:hover {
+	color: #63ff72;
+	text-shadow: 3px 3px #006600;
+}
+
+.active > span.nav-text {
+	color: #63ff72;
+	text-shadow: 3px 3px #006600;
 }
 
 
@@ -121,7 +136,7 @@ span.nav-text{
 
 #img2{
 	margin-top: 40px;
-	background-image: url("../images/IMY320_1.PNG"); /*Should change to a gif with the*/
+	background-image: url("../images/IMY320_2.PNG"); /*Should change to a gif with the*/
 	background-position: center center;
 	height: 500px;
 	/*width: 100%;*/
