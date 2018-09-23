@@ -50,8 +50,9 @@ $(document).ready(function(){
                 $("#two").slideUp();
                 $("#three").slideUp();
                 $("#four").slideUp();
-                $("html, body").animate({ scrollTop: 0 }, 500);
                 break;
 		}
+		
+		$("html, body").animate({ scrollTop: 0 }, 500);
 	});
 });
