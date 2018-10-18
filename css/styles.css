@@ -16,13 +16,10 @@ div#Landing-page{
 	width: 100%;
 	height:  100%;
 	background-color: white;
-	text-align: center;
+	padding-top: 0px;
 }
 div#Landing-page>img{
-	/*width: 100%;*/
-	height:700px;
-	/*background-color: white;*/
-	/*text-align: center;*/
+	width: 100%;
 }
 img#banner{
 	margin: 0, auto;
@@ -35,13 +32,6 @@ h1{
 	font-size: 42px;
 
 }
-div{
-	/*position: fixed;*/
-	/*top: -47px;*/
-	height:1080px;
-	padding-top: 30px;
-}
-
 
 /*------Nav Bar CSS------------------------*/
 #nav-bar-div{
@@ -113,7 +103,6 @@ iframe{
 /*--------------------------Story----------------------------------*/
 #one{
 	background-color: black;
-	/*padding: 40px;*/
     background-image: url("../images/back1.gif");
 	height: 100%;
 	width: 100%;
@@ -124,21 +113,19 @@ iframe{
 	/*display: none;*/
 }
 #one>p{
-	background-color:rgba(170,170,170,0.4); 
-	/*height:100%;*/
-	color :black;
-	/*position:;*/
-	/*top:;*/
-	padding: 20px;	
-	margin:17% 13%;
-	/*margin:0 13%;*/
+	padding:20px 13%;
+}
+
+#img1{
+	width: 100%;
 }
 
 /*--------------------------Info----------------------------------*/
 #two{
 	background-color: black;
     background-image: url("../images/back1.gif");
-	/*display: none;*/
+	height: 100%;
+	width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -146,24 +133,18 @@ iframe{
 	/*padding: 120px;*/
 }
 #two>p{
-	 margin:20px 13%;
+	 padding:20px 13%;
 }
 
 #img2{
-	margin-top: 40px;
-	background-image: url("../images/IMY320_2.PNG"); /*Should change to a gif with the*/
-	background-position: center center;
-	height: 500px;
-	/*width: 100%;*/
-	background-repeat: no-repeat;
-	background-size: contain;
+	width: 100%;
 }
 
 
 /*--------------------------Trailer----------------------------------*/
 #three{
-	background-color:black; 
-	/*display: none;*/
+	background-color:black;
+	padding-top: 85px;
 	background-image: url("../images/back1.gif");
 	height: 100%;
 	width: 100%;
@@ -204,10 +185,10 @@ p{
 
 .contacts{
     /*padding-left: 25%*/
-    padding: 15% 10%
+    padding: 15% 0;
 }
 .contactsReduceSize{
-    height: 300px;
+    height: 100px;
 }
 
 #four{
@@ -226,26 +207,103 @@ ul.contactDetails{
     list-style: none;
 }
 
+.card {
+	display: inline-block;
+	border: 15px solid transparent;
+	border-image: url("../images/border.png") 30 round;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	width: 270px;
+	margin: auto;
+	text-align: center;
+	background-color: #212121;
+	font-family: 'Digital';
+}
+
+.title {
+	color: grey;
+	font-size: 18px;
+}
+
+#four p {
+	padding: 0;
+	text-align: center;
+}
+
+#four h1 {
+	padding: 10px 0 0 0;
+}
+
+#profile3 {
+	width: 100%;
+	height: 250px;
+	background-image: url("../images/contacts/img_pieter.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+#profile4 {
+	width: 100%;
+	height: 250px;
+	background-image: url("../images/contacts/img_kinson.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
 /*--------------------------footer----------------------------------*/
 #footer{
     background-image: url("../images/footer/footer.png");
-	height: 100%;
-	width: 100%;
-	
+	height: 200px;
+	padding-top: 40px;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center center
+	background-position: center center;
 }
 
 .footerContainer{
-    height: 500px;
+	padding: 0 50px;
+    height: 100px;
     color: white
 }
 
 .footerLists{
+	padding-left: 0;
     list-style: none;
 }
 
 .footRow{
-    height: 100%
+    height: 100%;
+	padding-top: 0px;
+}
+
+#social > li {
+	display: inline-block;
+}
+
+svg {
+	width: 90px;
+	padding: 10px;
+}
+
+path {
+	fill: #63ff72;
+	transition: all 0.1s linear;
+}
+
+svg:hover path {
+	fill: #ffff;
+}
+
+#footer h1 {
+	font-family: 'Digital';
+	text-shadow: 2px 2px #006600;
+	text-align: left;
+	color: white;
+	font-size: 42px;
+	padding-left: 30px;
+	margin-bottom: 0;
+}
+
+#footer .contactsReduceSize {
+	padding-top: 0px;
 }
