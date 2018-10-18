@@ -41,6 +41,12 @@ h2{
 	margin-right: 10px;
 }
 
+strong {
+	font-family: 'moonwalkerTitle';
+	font-weight: lighter;
+	font-size: 25px;
+}
+
 /*------Nav Bar CSS------------------------*/
 #nav-bar-div{
 	width: 100%;
